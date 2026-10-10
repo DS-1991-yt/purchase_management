@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>06c1cb49ea3f44b49f0122dd6948a280</sys_id>
+    <sys_scope display_value="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
+    <sys_update_name>sys_number_06c1cb49ea3f44b49f0122dd6948a280</sys_update_name>
+    <category>x_528401_purchas_0_po</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>PO</prefix>
+  </sys_number>
+</record_update>

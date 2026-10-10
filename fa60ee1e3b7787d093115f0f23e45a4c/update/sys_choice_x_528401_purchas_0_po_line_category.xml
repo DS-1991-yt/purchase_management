@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="category" table="x_528401_purchas_0_po_line" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d6b9f543cbc848dcb778b93f4c897f01</sys_id>
+      <element>category</element>
+      <sys_update_name>sys_choice_x_528401_purchas_0_po_line_category</sys_update_name>
+      <name>x_528401_purchas_0_po_line</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
+      <sys_package display_value="x_528401_purchas_0" source="fa60ee1e3b7787d093115f0f23e45a4c">fa60ee1e3b7787d093115f0f23e45a4c</sys_package>
+      <sys_name>category</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>25f1ab56f21140e185c7538ac4c148c1</sys_id>
+      <name>x_528401_purchas_0_po_line</name>
+      <element>category</element>
+      <label>Hardware</label>
+      <value>hardware</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>68020ce2a7d24359896825838aa38433</sys_id>
+      <name>x_528401_purchas_0_po_line</name>
+      <element>category</element>
+      <label>Software</label>
+      <value>software</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>a3b9c2580ae74c7ea8b7bbb24b4dca56</sys_id>
+      <name>x_528401_purchas_0_po_line</name>
+      <element>category</element>
+      <label>Services</label>
+      <value>services</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>77f939d96a5c4e4887ac0e271cd1d736</sys_id>
+      <name>x_528401_purchas_0_po_line</name>
+      <element>category</element>
+      <label>Supplies</label>
+      <value>supplies</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>2947edb6fb4c426fb7cc5b164f175498</sys_id>
+      <name>x_528401_purchas_0_po_line</name>
+      <element>category</element>
+      <label>Other</label>
+      <value>other</value>
+      <sequence>5</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="a5a0bb30420b4367967258f83a49995d" sys_domain="global" table="x_528401_purchas_0_pr_line">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>c31ab69f055041d6b447bf8cbe94e10a</sys_id>
+      <sys_ui_form display_value="x_528401_purchas_0_pr_line" name="x_528401_purchas_0_pr_line" sys_domain="global" view="Default view">a5a0bb30420b4367967258f83a49995d</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_pr_line" sys_domain="global" view="Default view">30109a0f1ac54900bb8ca5b271d5f9f5</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_528401_purchas_0_pr_line</name>
+      <roles/>
+      <sys_id>a5a0bb30420b4367967258f83a49995d</sys_id>
+      <sys_scope display_value="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

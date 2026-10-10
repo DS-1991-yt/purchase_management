@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>010cc1c13de046f7ab87dc7e1a787819</sys_id>
+    <sys_scope display_value="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
+    <sys_update_name>sys_script_010cc1c13de046f7ab87dc7e1a787819</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>true</action_delete>
+    <action_insert>true</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_528401_purchas_0_pr_line</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition/>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>PR - Recalculate Total Amount</name>
+    <order>100</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[
+var prId = current.getValue('purchase_requisition');
+if (prId) {
+  var lineGr = new GlideRecord('x_528401_purchas_0_pr_line');
+  lineGr.addQuery('purchase_requisition', prId);
+  lineGr.query();
+  var total = 0;
+  while (lineGr.next()) {
+    total += parseFloat(lineGr.getValue('total_price') || '0');
+  }
+  var prGr = new GlideRecord('x_528401_purchas_0_pr');
+  if (prGr.get(prId)) {
+    prGr.setValue('total_amount', total);
+    prGr.setWorkflow(false);
+    prGr.update();
+  }
+}
+]]></script>
+    <sys_name>PR - Recalculate Total Amount</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>after</when>
+  </sys_script>
+</record_update>
