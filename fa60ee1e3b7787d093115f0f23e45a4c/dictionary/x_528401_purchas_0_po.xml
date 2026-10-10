@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb18534bbddc47ddbc32308b651a84d0" label="Purchase Order" name="x_528401_purchas_0_po" type="collection">
+        <element label="Total Amount" name="total_amount" read_only="true" type="decimal"/>
+        <element label="Shipping Address" name="shipping_address" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" label="Number" name="number" read_only="true" type="string"/>
+        <element label="Department" name="department" reference="cmn_department" type="reference"/>
+        <element label="Short Description" mandatory="true" name="short_description" type="string"/>
+        <element label="Buyer" mandatory="true" name="buyer" reference="sys_user" type="reference"/>
+        <element label="Order Date" name="order_date" type="glide_date"/>
+        <element default="draft" label="State" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Received" sequence="4" value="received"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="Sent" sequence="2" value="sent"/>
+                <element inactive_on_update="false" label="Partially Received" sequence="3" value="partially_received"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="4000" name="notes" type="multi_two_lines"/>
+        <element label="Purchase Requisition" name="purchase_requisition" reference="x_528401_purchas_0_pr" type="reference"/>
+        <element label="Expected Delivery Date" name="expected_delivery_date" type="glide_date"/>
+        <element label="Billing Address" name="billing_address" type="string"/>
+        <element label="Vendor" mandatory="true" name="vendor" type="string"/>
+        <index name="index">
+            <element name="buyer"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="purchase_requisition"/>
+        </index>
+    </element>
+</database>

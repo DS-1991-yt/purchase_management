@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fcc8844225ef4029b75b5658da02986f" label="Purchase Requisition" name="x_528401_purchas_0_pr" type="collection">
+        <element label="Purchase Order" name="purchase_order" reference="x_528401_purchas_0_po" type="reference"/>
+        <element label="Requester" mandatory="true" name="requester" reference="sys_user" type="reference"/>
+        <element label="Approval Date" name="approval_date" type="glide_date"/>
+        <element label="Department" name="department" reference="cmn_department" type="reference"/>
+        <element label="Total Amount" name="total_amount" read_only="true" type="decimal"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" label="Number" name="number" read_only="true" type="string"/>
+        <element label="Short Description" mandatory="true" name="short_description" type="string"/>
+        <element label="Requested Date" name="requested_date" type="glide_date"/>
+        <element label="Rejection Reason" name="rejection_reason" type="string"/>
+        <element default="draft" label="State" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Converted" sequence="5" value="converted"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+            </choice>
+        </element>
+        <element label="Approved By" name="approved_by" reference="sys_user" type="reference"/>
+        <element label="Justification" max_length="4000" name="justification" type="multi_two_lines"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="purchase_order"/>
+        </index>
+        <index name="index4">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>

@@ -1,134 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="General" section_id="03abd587af0748f7839d147cf08e9e7b" sys_domain="global" table="x_528401_purchas_0_po_line" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>5cdeedc3f4c04187a9935afa2bc1fa99</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>purchase_order</element>
-      <position>1</position>
-      <sys_id>88af7a50eace4a02ae27661ba7f1d4c4</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>item_description</element>
-      <position>2</position>
-      <sys_id>025361ba99cd478aaac68fe8c099b2fb</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>quantity_ordered</element>
-      <position>3</position>
-      <sys_id>ea49fa2bbdcd4ef18ab99136ba74f174</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>unit_price</element>
-      <position>4</position>
-      <sys_id>7c22b8e105d94524b46088fa857f4108</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.split</element>
-      <position>5</position>
-      <sys_id>fe5756565de64fd6ab5fda875baed79d</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>line_number</element>
-      <position>6</position>
-      <sys_id>52a85eba46e84d2b92c8c97f540b8905</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>category</element>
-      <position>7</position>
-      <sys_id>872c04513c3b4a8eaedef68dc99f796b</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>quantity_received</element>
-      <position>8</position>
-      <sys_id>f3e021cf0f1043478e2921448dd45767</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>total_price</element>
-      <position>9</position>
-      <sys_id>2764a809bbfc4f33ba35ffaf89585d3a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.end_split</element>
-      <position>10</position>
-      <sys_id>472a68c5175048ca87550142173c2816</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>vendor_item_code</element>
-      <position>11</position>
-      <sys_id>5842071e31504f3fb4b21592bb72025a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>notes</element>
-      <position>12</position>
-      <sys_id>dbe3d26dfe384f239ba0eafac8ee0a0a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <caption>General</caption>
-      <header>false</header>
-      <name>x_528401_purchas_0_po_line</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>03abd587af0748f7839d147cf08e9e7b</sys_id>
-      <sys_scope display_value="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="General" section_id="03abd587af0748f7839d147cf08e9e7b" sys_domain="global" table="x_528401_purchas_0_po_line" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>5cdeedc3f4c04187a9935afa2bc1fa99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_order</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>88af7a50eace4a02ae27661ba7f1d4c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>025361ba99cd478aaac68fe8c099b2fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity_ordered</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>ea49fa2bbdcd4ef18ab99136ba74f174</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_price</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>7c22b8e105d94524b46088fa857f4108</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>fe5756565de64fd6ab5fda875baed79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>line_number</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>52a85eba46e84d2b92c8c97f540b8905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>872c04513c3b4a8eaedef68dc99f796b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity_received</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>f3e021cf0f1043478e2921448dd45767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_price</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>2764a809bbfc4f33ba35ffaf89585d3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>472a68c5175048ca87550142173c2816</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_item_code</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>5842071e31504f3fb4b21592bb72025a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 16:32:40</sys_created_on>
+            <sys_id>dbe3d26dfe384f239ba0eafac8ee0a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_528401_purchas_0_po_line" sys_domain="global" view="Default view">03abd587af0748f7839d147cf08e9e7b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 16:32:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>x_528401_purchas_0_po_line</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 10:49:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03abd587af0748f7839d147cf08e9e7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_528401_purchas_0_po_line</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Purchase Management" source="x_528401_purchas_0">fa60ee1e3b7787d093115f0f23e45a4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Purchase Management">fa60ee1e3b7787d093115f0f23e45a4c</sys_scope>
+            <sys_update_name>sys_ui_section_03abd587af0748f7839d147cf08e9e7b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-10 10:49:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>

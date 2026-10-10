@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2137e754e5f74e6b88a1e9ff363e6591" label="PR Line Item" name="x_528401_purchas_0_pr_line" type="collection">
+        <element label="Quantity" mandatory="true" name="quantity" type="decimal"/>
+        <element label="Notes" name="notes" type="string"/>
+        <element label="Line Number" name="line_number" type="integer"/>
+        <element label="Purchase Requisition" mandatory="true" name="purchase_requisition" reference="x_528401_purchas_0_pr" type="reference"/>
+        <element label="Preferred Vendor" name="vendor" type="string"/>
+        <element label="Item Description" mandatory="true" name="item_description" type="string"/>
+        <element label="Total Price" name="total_price" read_only="true" type="decimal"/>
+        <element label="Category" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="2" value="software"/>
+                <element inactive_on_update="false" label="Supplies" sequence="4" value="supplies"/>
+                <element inactive_on_update="false" label="Hardware" sequence="1" value="hardware"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive_on_update="false" label="Services" sequence="3" value="services"/>
+            </choice>
+        </element>
+        <element label="Unit Price" mandatory="true" name="unit_price" type="decimal"/>
+        <index name="index">
+            <element name="purchase_requisition"/>
+        </index>
+    </element>
+</database>
